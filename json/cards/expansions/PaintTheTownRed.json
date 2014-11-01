@@ -1,0 +1,105 @@
+{
+  "version": 0.1,
+  "heroes": {
+    "moon_knight": {
+      "hero_name": "Moon Knight",
+      "team": "marvel_knights",
+      "card_list": {
+        "golden_ankh_of_khonshu": {
+          "display_name": "Golden Ankh of Khonshu",
+          "quantity": 1,
+          "attack": 6,
+          "recruit": null,
+          "cost": 8,
+          "type": "instinct",
+          "special_ability":
+            "Whenever you defeat a Villain on the ROOFTOPS this turn, rescue Bystanders equal to that Villain's printed VICTORY_POINTS.\nTech: You may move a Villain to the ROOFTOPS. If another Villain is already there, swap them.",
+          "flavour_text": null
+        },
+        "crescent_moon_darts": {
+          "display_name": "Crescent Moon Darts",
+          "quantity": 3,
+          "attack": 3,
+          "recruit": null,
+          "cost": 5,
+          "type": "tech",
+          "special_ability":
+            "Reveal the top card of your deck. If it's INSTINCT or TECH, draw it.",
+          "flavour_text": "Villains face the crescent moon's judgement. Then they get the crescent moon's judgement in their face."
+        },
+        "climbing_claws": {
+          "display_name": "Climbing Claws",
+          "quantity": 5,
+          "attack": null,
+          "recruit": 2,
+          "cost": 3,
+          "type": "tech",
+          "special_ability":
+            "WALL-CRAWL\nINSTINCT: You get +1 RECRUIT.",
+          "flavour_text": "Criminals feel the cold light of the moon on their sins... but they never think to look up."
+        },
+        "lunar_communication": {
+          "display_name": "Lunar Communication",
+          "quantity": 5,
+          "attack": 2,
+          "recruit": null,
+          "cost": 3,
+          "type": "instinct",
+          "special_ability":
+            "WALL-CRAWL\nWhenever you defeat a Villain on the ROOFTOPS this turn, you may KO one of your cards or a card from your discard pile.",
+          "flavour_text": null
+        }
+      }
+    },
+    "symbiote_spiderman": {
+      "hero_name": "Symbiote Spiderman",
+      "team": "spider_friends",
+      "card_list": {
+        "thwip": {
+          "display_name": "Thwip!",
+          "quantity": 1,
+          "attack": 4,
+          "recruit": null,
+          "cost": 2,
+          "type": "ranged",
+          "special_ability":
+            "To play this card, you must put two cards from your hang on top of your deck.",
+          "flavour_text": null
+        },
+        "shadowed_spiderman": {
+          "display_name": "Shadowed Spiderman",
+          "quantity": 3,
+          "attack": 1,
+          "recruit": null,
+          "cost": 2,
+          "type": "covert",
+          "special_ability":
+            "WALL-CRAWL\nYou get +1 ATTACK for each other Hero you played this turn that costs 1 RECRUIT or 2 RECRUIT.",
+          "flavour_text": null
+        },
+        "spider-sense_tingling": {
+          "display_name": "Spider-Sense Tingling",
+          "quantity": 5,
+          "attack": null,
+          "recruit": null,
+          "cost": 2,
+          "type": "instinct",
+          "special_ability":
+            "Reveal the top two cards of your deck. Put any that cost 2 RECRUIT or less into your hand. Put the rest back in any order.",
+          "flavour_text": null
+        },
+        "dark_strength": {
+          "display_name": "Dark Strength",
+          "quantity": 5,
+          "attack": 1,
+          "recruit": null,
+          "cost": 2,
+          "type": "strength",
+          "special_ability":
+            "WALL-CRAWL\nReveal the top card of your deck. If it costs 1 RECRUIT or 2 RECRUIT, you get +2 ATTACK.",
+          "flavour_text": null
+        }
+      }
+    }
+  }
+}
